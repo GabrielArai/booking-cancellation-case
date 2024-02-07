@@ -12,26 +12,23 @@ cancelamentos, de modo que a empresa tenha tempo hábil para agir com ações de
 Organização do Projeto
 ------------
 
-    ├── README.md          <- The top-level README for developers using this project.
+    ├── README.md          <- O README de nível superior para desenvolvedores que estão utilizando este │                         projeto.
+    │
     ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
+    │   ├── intermediate   <- Dados intermediários que foram transformados.
+    │   ├── processed      <- Dados finais para modelagem.
+    │   └── raw            <- Dados originais.
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── models             <- Modelos treinados e serializados, previsões do modelo ou resumos do modelo.
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── notebooks          <- Jupyter notebooks. 
     │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
+    ├── src
+    │   └── funcs          <- Módulo contendo funções de processamento de dados. 
     │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
+    └── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
+                              generated with `pip freeze > requirements.txt`
     
-
 
 --------
 
